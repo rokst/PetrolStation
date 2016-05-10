@@ -5,9 +5,9 @@ package com.company.Entities;
  */
 public class Gasoline extends Fuel {
 
-    public Gasoline(double literPrice, double discount)
+    public Gasoline(String name, double literPrice, double discount)
     {
-        super(literPrice, discount);
+        super(name, literPrice, discount);
     }
 
     public double fillUp(double amount, boolean kortele)

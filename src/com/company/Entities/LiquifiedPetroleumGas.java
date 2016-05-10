@@ -6,9 +6,9 @@ package com.company.Entities;
 
 public class LiquifiedPetroleumGas extends Fuel {
 
-    public LiquifiedPetroleumGas(double literPrice, double discount)
+    public LiquifiedPetroleumGas(String name, double literPrice, double discount)
     {
-        super(literPrice, discount);
+        super(name, literPrice, discount);
     }
 
     //Kuro pilimo metodas. Imamas papildomas 1 euro aptarnavimo mokestis.

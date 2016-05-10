@@ -14,10 +14,10 @@ public class testGasoline
 
     static final class test
     {
-        static Fuel x = new Gasoline(0.5, 0.035);
-        static Fuel y = new Gasoline(0.5, 0.035);
-        static Fuel z = new Gasoline(0.5, 0.035);
-        static Fuel a = new Gasoline(0.75, 0.0735);
+        static Fuel x = new Gasoline("Gasoline",0.5, 0.035);
+        static Fuel y = new Gasoline("Gasoline",0.5, 0.035);
+        static Fuel z = new Gasoline("Gasoline",0.5, 0.035);
+        static Fuel a = new Gasoline("Gasoline",0.75, 0.0735);
     }
 
     @Test

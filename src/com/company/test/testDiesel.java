@@ -14,10 +14,10 @@ import static org.junit.Assert.assertTrue;
 public class testDiesel {
     static final class test
     {
-        static Fuel x = new Diesel(0.5, 0.035);
-        static Fuel y = new Diesel(0.5, 0.035);
-        static Fuel z = new Diesel(0.5, 0.035);
-        static Fuel a = new Diesel(0.75, 0.0735);
+        static Fuel x = new Diesel("Diesel",0.5, 0.035);
+        static Fuel y = new Diesel("Diesel",0.5, 0.035);
+        static Fuel z = new Diesel("Diesel",0.5, 0.035);
+        static Fuel a = new Diesel("Diesel",0.75, 0.0735);
     }
 
     @Test

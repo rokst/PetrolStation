@@ -7,8 +7,19 @@ public abstract class Fuel {
 
     protected double literPrice, discount;
 
-    public Fuel(double literPrice, double discount)
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    protected String name;
+
+    public Fuel(String name, double literPrice, double discount)
     {
+        this.name = name;
         this.literPrice = literPrice;
         this.discount = discount;
     }

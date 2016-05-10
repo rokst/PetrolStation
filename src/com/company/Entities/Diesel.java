@@ -5,9 +5,9 @@ package com.company.Entities;
  */
 public class Diesel extends Fuel {
 
-    public Diesel(double literPrice, double discount)
+    public Diesel(String name,double literPrice, double discount)
     {
-        super(literPrice, discount);
+        super(name,literPrice, discount);
     }
 
     //Kuro pilimo metodas. Dyzelinui taikoma papildoma nuolaida, jei kiekis yra didesnis arba lygus 60 l.

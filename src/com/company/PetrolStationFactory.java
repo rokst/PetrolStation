@@ -9,9 +9,9 @@ import com.company.Entities.*;
 public class PetrolStationFactory implements PetrolStation {
 
     //default values
-    private Fuel l = new LiquifiedPetroleumGas(0.5, 0.04);
-    private Fuel d = new Diesel(0.89, 0.05);
-    private Fuel g = new Gasoline(1.05, 0.05);
+    private Fuel l = new LiquifiedPetroleumGas("LPG",0.5, 0.04);
+    private Fuel d = new Diesel("Diesel",0.89, 0.05);
+    private Fuel g = new Gasoline("Gasoline", 1.05, 0.05);
 
     public Fuel getGasoline()
     {
